@@ -73,7 +73,7 @@ body{
 #page-1 p {
   transform: translateX(-1800px);
   /* adding a delay or you can add another variable for text speed */
-  animation: text var(--animate-speed) forwards ease-in 2s;
+  animation: text var(--animate-speed) forwards ease-in 1s;
 }
 /* Keyframes */
 @keyframes heading {
