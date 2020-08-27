@@ -3,6 +3,7 @@
   --page-2-color:tan;
   --page-3-color:teal;
   --page-4-color:slateblue;
+
 }
 
 body{
@@ -37,4 +38,28 @@ body{
 }
 .page p{
   font-size: 1.3rem;
+}
+
+/* button */
+
+.btn{
+  display: inline-block;
+  padding:1rem 2rem;
+  background:#f4f4f4;
+  color: #333333;
+  text-decoration: none;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in;
+}
+.btn:hover,.btn-dark{
+  background:#333333;
+  color:#ffffff;
+}
+
+.btn-dark:hover{
+  background:#f4f4f4;
+  color: #333333;;
+
 }
