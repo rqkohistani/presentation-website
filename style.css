@@ -1,0 +1,40 @@
+:root{
+  --page-1-color:steelblue;
+  --page-2-color:tan;
+  --page-3-color:teal;
+  --page-4-color:slateblue;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color: #ffffff;
+  /* color: red; */
+  margin:0;
+  padding:0;
+  /* hidding the scroll bar */
+  overflow: hidden;
+}
+/* Page colors */
+#page-1 {background:var(--page-1-color)}
+#page-2 {background:var(--page-2-color)}
+#page-3 {background:var(--page-3-color)}
+#page-4 {background:var(--page-4-color)}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:0 4rem;
+}
+.page h1{
+  font-size: 4rem;
+  line-height: 1.2;
+  margin:1rem;
+}
+.page p{
+  font-size: 1.3rem;
+}
